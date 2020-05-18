@@ -1,14 +1,14 @@
 {
-  “applinks”: {
-    “apps”: [],
-    “details”: [
+  "applinks": {
+    "apps": [],
+    "details": [
     {
-      “appID”: “YFZ5LYLJPF.com.jangelsb.reddit.redirecttest”,
-      “paths”: [“/reddit/*”]
+      "appID": "YFZ5LYLJPF.com.jangelsb.reddit.redirecttest",
+      "paths": ["/reddit/*"]
     },
     {
-      “appID”: “YFZ5LYLJPF.com.jangelsb.twitter.redirecttest”,
-      “paths”: [“/twitter/*”]
+      "appID": "YFZ5LYLJPF.com.jangelsb.twitter.redirecttest",
+      "paths": ["/twitter/*"]
     },
     {
       "appID": "YFZ5LYLJPF.com.jangelsb.redirecttest",
