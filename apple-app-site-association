@@ -9,6 +9,10 @@
     {
       “appID”: “YFZ5LYLJPF.com.jangelsb.twiiter.redirecttest”,
       “paths”: [“/twitter/*”]
+    },
+    {
+      "appID": "YFZ5LYLJPF.com.jangelsb.redirecttest",
+      "paths": ["*"]
     }
     ]
   }
