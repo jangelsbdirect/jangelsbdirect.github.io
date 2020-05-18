@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Redirecting</title>
+      
+      <meta id="meta_content" http-equiv = "refresh" content = "2; url = https://www.reddit.com" />
+      
+      <script> 
+        var url_after_hostname = window.location.pathname + window.location.search + window.location.hash;
+        
+        var the_url = "";
+        if (url_after_hostname.startsWith("/reddit/") {
+            url_after_hostname = url_after_hostname.replace("/reddit/", "");
+            the_url = `https://www.reddit.com/${url_after_hostname}`;
+        } else if (url_after_hostname.startsWith("/twitter/") {
+            url_after_hostname = url_after_hostname.replace("/twitter/", "");
+            the_url = `https://www.twitter.com/${url_after_hostname}`;
+        }
+        
+        document.getElementById('meta_content').content = `2; url = ${the_url}`;
+      </script>
+   </head>
+<body>
+
+<h1>Redirecting in 2 seconds</h1>
+
+<p id="demo"></p>
+<a id="aaa" href=""></a>
+  
+<script> 
+  document.getElementById('demo').innerHTML = `Click to go now:`;
+  
+  var elem = document.getElementById('aaa');
+  elem.innerHTML = `${the_url} `;
+  elem.href = `${the_url}`;
+  
+//   function triggerEvent( elem, event ) {
+//     var clickEvent = new Event(event); // Create the event.
+//     elem.dispatchEvent(clickEvent);    // Dispatch the event.
+//   }
+  
+//   triggerEvent(elem, 'click');
+  
+</script>
+
+</body>
+</html>
