@@ -9,10 +9,10 @@
         var url_after_hostname = window.location.pathname + window.location.search + window.location.hash;
         
         var the_url = "";
-        if (url_after_hostname.startsWith("/reddit/") {
+        if (url_after_hostname.startsWith("/reddit/")) {
             url_after_hostname = url_after_hostname.replace("/reddit/", "");
             the_url = `https://www.reddit.com/${url_after_hostname}`;
-        } else if (url_after_hostname.startsWith("/twitter/") {
+        } else if (url_after_hostname.startsWith("/twitter/")) {
             url_after_hostname = url_after_hostname.replace("/twitter/", "");
             the_url = `https://www.twitter.com/${url_after_hostname}`;
         }
