@@ -7,7 +7,7 @@
       “paths”: [“/reddit/*”]
     },
     {
-      “appID”: “YFZ5LYLJPF.com.jangelsb.twiiter.redirecttest”,
+      “appID”: “YFZ5LYLJPF.com.jangelsb.twitter.redirecttest”,
       “paths”: [“/twitter/*”]
     },
     {
