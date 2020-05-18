@@ -5,6 +5,10 @@
     {
       “appID”: “YFZ5LYLJPF.com.jangelsb.reddit.redirecttest”,
       “paths”: [“/reddit/*”]
+    },
+    {
+      “appID”: “YFZ5LYLJPF.com.jangelsb.twiiter.redirecttest”,
+      “paths”: [“/twitter/*”]
     }
     ]
   }
