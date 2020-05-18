@@ -9,10 +9,6 @@
     {
       "appID": "YFZ5LYLJPF.com.jangelsb.twitter.redirecttest",
       "paths": ["/twitter/*"]
-    },
-    {
-      "appID": "YFZ5LYLJPF.com.jangelsb.redirecttest",
-      "paths": ["*"]
     }
     ]
   }
