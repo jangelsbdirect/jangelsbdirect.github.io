@@ -3,7 +3,7 @@
     “apps”: [],
     “details”: [
     {
-      “appID”: “YFZ5LYLJPF.com.jangelsb.redirecttest”,
+      “appID”: “YFZ5LYLJPF.com.jangelsb.reddit.redirecttest”,
       “paths”: [“/reddit/*”]
     }
     ]
